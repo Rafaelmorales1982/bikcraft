@@ -1,4 +1,3 @@
-
 .header-bg {
   background-color: var(--cor-12);
 }
@@ -7,12 +6,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  box-sizing: border-box;
-  padding: 20px;
-  max-width: 1200px;
-  margin: 0 auto;
+  padding-bottom: 20px;
+  padding-top: 20px;
   flex-wrap: wrap;
-  gap: 20px;
 }
 
 .header-menu li {
@@ -25,10 +21,7 @@
   display: inline-block;
   padding: 16px 0px;
   color: var(--cor-0);
-  font-size: 18px;
   position: relative;
-  font-family: "Poppins";
-  font-weight: 400;
 }
 
 /*Criando pseudo elemento embaixo dos links de navegação uma linha embaixo*/
@@ -68,10 +61,12 @@
 
 @media (max-width: 600px) {
   .header-menu li {
+    
     gap: 12px;
   }
   .header-menu a {
     padding: 8px 12px;
     font-size: 14px;
+    flex-wrap: wrap;
   }
 }

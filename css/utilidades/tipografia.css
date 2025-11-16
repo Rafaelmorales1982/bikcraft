@@ -1,16 +1,105 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-.texto-grande {
-  font-size: 64px;
-  line-height: 1.125;
-  font-family: "Poppins";
+/*Fonte pequena*/
+.font-1-xs {
+  font-size: 0.75;/*12px*/
+  line-height: 1.35;
+  font-family: "Poppins",sans-serif;
+  font-weight: 400;
+}
+
+/*Fonte pequena 2 */
+.font-2-xs {
+  font-size: 0.875;/*14px*/
+  line-height: 1.43;
+  font-family: "Poppins",sans-serif;
+  font-weight: 400;
+}
+/*Fonte pequena 3 */
+.font-1-s {
+  font-size: 1rem;/*16px*/
+  line-height: 1.5;
+  font-family: "Roboto",sans-serif;
+  font-weight: 400;
+}
+/*Fonte pequena 4 */
+.font-2-s {
+  font-size: 1rem;/*16px*/
+  line-height: 1.5;
+  font-family: "Roboto",sans-serif;
+  font-weight: 400;
+}
+
+/*Fonte pequena 5 */
+.font-1-m {
+  font-size: 1.125rem;/*18px*/
+  line-height: 1.5;
+  font-family: "Poppins",sans-serif;
+  font-weight: 400;
+}
+
+/*Fonte pequena 6 */
+.font-1-m-b {
+  font-size: 1.125rem;/*18px*/
+  line-height: 1.5;
+  font-family: "Roboto",sans-serif;
   font-weight: 600;
 }
 
-.texto-medio {
-  font-size: 24px;
+/*Fonte média 1 */
+.font-1-l {
+  font-size: 1.125rem;/*18px*/
   line-height: 1.5;
-  font-family: "Roboto";
+  font-family: "Poppins",sans-serif;
   font-weight: 400;
+}
+
+/*Fonte média 2 */
+.font-1-l {
+  font-size: 1.125rem;/*18px*/
+  line-height: 1.5;
+  font-family: "Poppins",sans-serif;
+  font-weight: 400;
+}
+
+/*Fonte média 3 */
+.font-2-l {
+  font-size: 2rem;
+  line-height: 1.5;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+/*Fonte média 3 */
+.font-2-l-b {
+  font-size: 2rem;
+  line-height: 1.5;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.015rem;
+  text-transform: uppercase;
+}
+/*Fonte grande*/
+.font-1-xl {
+  font-size: 2rem;/*32px*/
+  line-height: 1.25;
+  font-family: "Poppins",sans-serif;
+  font-weight: 600;
+}
+/*Fonte grande*/
+.font-2-xl {
+  font-size: 2rem;/*32px*/
+  line-height: 1.25;
+  font-family: "Roboto",sans-serif;
+  font-weight: 500;
+}
+
+/*Fonte grande*/
+.font-1-xxl {
+  font-size: 4rem;/*4 x 16 = 64px*/
+  line-height: 1.125;
+  font-family: "Poppins",sans-serif;
+  font-weight: 600;
 }

@@ -3,8 +3,16 @@
 @import './global/global.css';
 /*home*/
 @import './home/introducao.css';
+@import './home/tecnologia.css';
+@import './home/parceiros.css';
+@import './home/depoimentos.css';
+
+/*Seguros*/
+@import './seguros/seguros.css';
 
 /*utilidades*/
 @import './utilidades/componentes.css';
 @import './utilidades/tipografia.css';
 @import './utilidades/cores.css';
+/*bicicletas*/
+@import './bicicletas/bicicletas-lista.css';

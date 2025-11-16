@@ -1,0 +1,61 @@
+.parceiros {
+  padding-top: 60px;
+  padding-bottom: 120px;
+}
+
+.parceiros h2 {
+  margin-bottom: 60px;
+}
+
+.parceiros ul {
+  max-width: 1400px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.parceiros li {
+  display: flex;
+  padding: 32px;
+  border: 2px solid var(--cor-3);
+}
+.parceiros img {
+  margin: auto;
+}
+
+/*Tirando as bordas que eu não quero das li*/
+/*tirando do primeiro filho da ul e do quinto filho*/
+.parceiros li:first-child,
+.parceiros li:nth-child(5) {
+  border-left: none;
+}
+
+/*a partir do quinto filho colocar border-top*/
+.parceiros li:nth-child(n + 5) {
+  border-bottom: none;
+}
+
+/*ultimo */
+.parceiros li:last-child {
+  border-right: none;
+}
+/*a partir do primeiro*/
+.parceiros li:nth-child(n + 1) {
+  border-right: none;
+  border-top: none;
+}
+
+@media (max-width: 800px){
+  .parceiros{
+    padding-bottom: 60px;
+  }
+  .parceiros h2 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+  } 
+
+  .parceiros ul {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

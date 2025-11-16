@@ -47,6 +47,7 @@
 }
 .cor-8 {
   color: var(--cor-8);
+  font-weight: bold;
 }
 .cor-9 {
   color: var(--cor-9);

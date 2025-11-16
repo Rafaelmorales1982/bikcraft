@@ -1,11 +1,7 @@
-
 /*------ PARTE DA INTRODUÇÃO-----*/
-img {
-  max-width: 100%;
-  display: block;
-}
 
 .introducao img {
+  width: 100%;
   height: 100%;
   object-fit: cover;
   border-radius: 5px;
@@ -13,7 +9,7 @@ img {
 
 .introducao-bg {
   background: var(--cor-12);
-  color:var(--cor-0);
+  color: var(--cor-0);
   box-shadow: inset 0 -120px var(--cor-0);
 }
 
@@ -21,12 +17,6 @@ img {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 0px 40px;
-  box-sizing: border-box;
-  max-width: 1200px;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .introducao-conteudo {
@@ -36,7 +26,6 @@ img {
 
 .introducao h1 {
   margin-bottom: 32px;
-
 }
 
 .introducao h1 span {
@@ -45,9 +34,7 @@ img {
 
 .introducao p {
   margin-bottom: 20px;
-
 }
-
 
 /*------------PARTE DA RESPOSIVIDADE INTRODUÇÃO PRINCIPAL-------------*/
 @media (max-width: 1200px) {
@@ -85,4 +72,3 @@ img {
     width: 100%;
   }
 }
-
