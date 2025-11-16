@@ -1,6 +1,7 @@
 /*global*/
 @import './global/header.css';
 @import './global/global.css';
+@import './global/footer.css';
 /*home*/
 @import './home/introducao.css';
 @import './home/tecnologia.css';
@@ -9,6 +10,9 @@
 
 /*Seguros*/
 @import './seguros/seguros.css';
+
+/*Termos*/
+@import './termos/termos.css';
 
 /*utilidades*/
 @import './utilidades/componentes.css';
