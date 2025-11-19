@@ -10,6 +10,8 @@
 
 /*Seguros*/
 @import './seguros/seguros.css';
+@import './seguros/vantagens.css';
+@import './seguros/perguntas.css';
 
 /*Termos*/
 @import './termos/termos.css';
@@ -20,3 +22,4 @@
 @import './utilidades/cores.css';
 /*bicicletas*/
 @import './bicicletas/bicicletas-lista.css';
+@import './bicicletas/bicicletas.css';
