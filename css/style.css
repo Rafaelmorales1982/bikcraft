@@ -16,6 +16,9 @@
 @import './home/parceiros.css';
 @import './home/depoimentos.css';
 
+/*Orçamento*/
+@import './orcamento/orcamento.css';
+
 /*Seguros*/
 @import './seguros/seguros.css';
 @import './seguros/vantagens.css';
