@@ -1,0 +1,3 @@
+COMO UTILIZAR PLUGINS EXTERNOS
+
+clipboard.js

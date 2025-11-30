@@ -32,6 +32,7 @@
 @import './utilidades/tipografia.css';
 @import './utilidades/cores.css';
 @import './utilidades/formulario.css';
+@import './utilidades/animacao.css';
 /*bicicletas*/
 @import './bicicletas/bicicletas-lista.css';
 @import './bicicletas/bicicletas.css';

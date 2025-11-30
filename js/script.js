@@ -39,24 +39,53 @@ parametros.forEach(ativarProduto);
 const perguntas = document.querySelectorAll(".perguntas button");
 //console.log(perguntas); mostra node lista dos botões
 
-function ativarPergunta(event){
- const pergunta = event.currentTarget;
- const controls = pergunta.getAttribute('aria-controls');
-const resposta = document.getElementById(controls);
+function ativarPergunta(event) {
+  const pergunta = event.currentTarget;
+  const controls = pergunta.getAttribute("aria-controls");
+  const resposta = document.getElementById(controls);
 
-resposta.classList.toggle("ativa");
-const ativa = resposta.classList.contains("ativa");
-pergunta.setAttribute("aria-expanded", ativa);
+  resposta.classList.toggle("ativa");
+  const ativa = resposta.classList.contains("ativa");
+  pergunta.setAttribute("aria-expanded", ativa);
 
-
-
- //console.log(pergunta);
- //console.log(controls);
+  //console.log(pergunta);
+  //console.log(controls);
 }
-
 
 function eventosPerguntas(pergunta) {
   pergunta.addEventListener("click", ativarPergunta);
 }
 
 perguntas.forEach(eventosPerguntas);
+
+// Galeria de Bicicletas
+
+const galeria = document.querySelectorAll(".bicicleta-imagens img");
+const galeriaContainer = document.querySelector(".bicicleta-imagens");
+
+// console.log(galeria, galeriaContainer);
+
+function trocarImagem(event) {
+  const img = event.currentTarget;
+  const media = matchMedia("(min-width: 1000px)").matches;
+  if (media) {
+    galeriaContainer.prepend(img); //prepend coloca elemento img na primeira posição da estrutura html img
+  }
+}
+
+function eventosGaleria(img) {
+  img.addEventListener("click", trocarImagem);
+}
+
+galeria.forEach(eventosGaleria);
+
+
+// Ativar plaugin  animação simple-anime
+//Varificar se esta linkado ná pagina se tiver com link ativa senão não ativa
+//Esta apenas index.html   <script src="./js/plugins/simple-anime.js"></script>
+
+
+//Animação
+if (window.SimpleAnime){
+    new SimpleAnime();
+}
